@@ -21,7 +21,7 @@ All services are containerized and deployed to a local Kubernetes cluster.
 
 ## 🚀 Deploying the Application
 
-Make sure your YAML files are ready for:
+Make sure your YAML files are ready to use | Considering the Docker images are already pushed to the hub:
 
 - `frontend-deployment.yaml`
 - `backend-deployment.yaml`
