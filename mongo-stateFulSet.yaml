@@ -21,9 +21,9 @@ spec:
         image: mongo
         env:
           - name: MONGO_INITDB_ROOT_USERNAME
-            value: root
+            value: <username>
           - name: MONGO_INITDB_ROOT_PASSWORD
-            value: rootpassword
+            value: <password>
         ports:
         - name: http
           containerPort: 80
