@@ -20,7 +20,7 @@ spec:
         image: atharvak2427/wanderlust-backend-2
         env:
         - name: MONGO_URL
-          value: mongodb://root:rootpassword@mongodb-service:27017
+          value: mongodb://<username>:<password>@mongodb-service:27017
         ports:
         - name: backend-port
           containerPort: 5000
