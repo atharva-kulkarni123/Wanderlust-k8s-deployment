@@ -49,7 +49,7 @@ Since NodePort may not work on WSL2 or certain setups, use port-forwarding inste
 2. http://localhost:5000
 
 💾 MongoDB Setup & Inspection
-1. kubectl exec -it mongodb-0 -- mongosh -u root -p rootpassword
+1. kubectl exec -it mongodb-0 -- mongosh -u <username> -p <password>
 2. show dbs
 3. use test (or the name of the table that you have set)
 4. show collections
